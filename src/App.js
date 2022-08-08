@@ -7,7 +7,6 @@ function App() {
     <div className="app">
       <Header />
       <Home />
-      {/* Varin Jaggi */}
     </div>
   );
 }
