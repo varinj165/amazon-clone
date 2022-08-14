@@ -3,11 +3,13 @@ import './Header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { Link } from 'react-router-dom';
+import { customHistory } from './App.js'
 
 function header() {
   return (
     <div className='header'>
       <Link to="/">
+        {customHistory.push('/')}
         <img 
           className='header__logo' 
           src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' 
@@ -48,12 +50,15 @@ function header() {
           </span>
         </div>
 
-        <div className='header__optionBasket'>
-          <ShoppingBasketIcon />
-          <span className='header__optionLineTwo header__basketCount'>
-            0
-          </span>
-        </div>
+        <Link to='/checkout'>
+          {customHistory.push('/checkout')}
+          <div className='header__optionBasket'>
+            <ShoppingBasketIcon />
+            <span className='header__optionLineTwo header__basketCount'>
+              0
+            </span>
+          </div>
+        </Link>
 
       </div>
     </div>
