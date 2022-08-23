@@ -17,10 +17,10 @@ function Checkout() {
             Your Shopping Basket
           </h2>
 
-          {/** Basket Item */}
-          {/** Basket Item */}
-          {/** Basket Item */}
-          {/** Basket Item */}
+          {/** CheckoutProduct */}
+          {/** CheckoutProduct */}
+          {/** CheckoutProduct */}
+          {/** CheckoutProduct */}
         </div>
       </div>
 
