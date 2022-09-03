@@ -32,7 +32,7 @@ function Login() {
             <button className='login__signInButton'>Sign In</button>
 
             <p>
-                By signing-in you agree to this Fake Amazon Clone's Conditions of Use & Sale. Please
+                By signing-in you agree to this FAKE AMAZON CLONE'S Conditions of Use & Sale. Please
                 see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
             </p>
 
